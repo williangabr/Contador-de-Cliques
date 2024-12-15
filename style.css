@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('pc-background-icblvzjtn3i7m291.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 420px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  color: #fff;
+  padding: 30px 40px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  display: flex; /* Ativando Flexbox no container */
+  flex-direction: column; /* Alinhando elementos verticalmente */
+  justify-content: center; /* Centralizando elementos verticalmente */
+  align-items: center; /* Centralizando elementos horizontalmente */
+  gap: 20px; /* Espaçamento entre os elementos */
+}
+
+.container h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #003cfffb;
+  color: white;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #19c006fb;
+}
